@@ -1,0 +1,45 @@
+<%@include file="inc/header.jsp" %>
+		
+	<h1 id="ajout">Ajouter utilisateur</h1><br/>
+	
+	<div id="form">
+			<form method="post">
+			
+						<fieldset>
+						
+						<legend>Ajout</legend>
+						
+						<div class="formItem">
+						<label for="nom">Nom</label><br/>
+						 <input type="text" name ="nom"/><br/>
+						 </div>
+						 
+						 <div class="formItem">
+						 <label for="prenom">Prenom</label><br/>
+						 <input type="text" name ="prenom"/><br/>
+						 <span>Vous devez renseigner ce champ</span>
+						 </div>
+						 
+						 <div class="formItem">
+						 <label for="login">Login</label><br/>
+						 <input type="text" name ="login"/><br/>
+						 </div>
+						 
+						 <div class="formItem">
+						 <label>Mot de passe</label><br/>
+						  <input type="password" name ="mdp"/><br/>
+						  </div>
+						  
+						  <div class="formItem">
+						 <label>Mot de passe(Confirmation)</label><br/>
+						  <input type="password" name ="mdpbis"/><br/>
+						  </div>
+						  
+						   <input class="btn" type="submit" value ="Ajouter"/><br/>
+						</fieldset>
+			</form>
+			
+			</div>
+
+</body>
+</html>
