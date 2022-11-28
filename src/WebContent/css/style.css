@@ -1,0 +1,70 @@
+#entete {
+    text-align: center;
+    
+    border: 1px solid;
+    min-width: 70px;
+	min-height: 25px;
+    background-color : black;
+    color:#FFF;
+    
+}
+ul 
+{
+	list-style-type: none;
+	
+}	
+
+ul li {
+	
+	display: inline-block;
+}
+li a {
+		list-style-type: none;
+		min-width: 120px;
+		min-height: 25px;
+		margin-left: 50px;
+		text-decoration: none;
+		
+		color: #FFF;
+	
+}
+
+div h1 {
+	text-align: center;
+	border: 2px solid;
+}
+
+
+#form {
+	min-width:100px;
+	min-height:100px;
+	margin-left:35%;
+	margin-right:35%;
+	
+}
+
+#ajout {
+	text-align:center;
+}
+
+.formItem {
+	text-align: center;
+}
+
+.btn {
+	margin-top:10%;
+	margin-left:35%;
+}
+
+
+.erreur {
+	color:red;
+	text-align:center;
+}
+
+
+
+
+
+
+
